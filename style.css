@@ -1,0 +1,51 @@
+.div_class{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 5px;
+
+}
+
+img{
+    max-width: 99%;
+    max-height: 94%;
+    border: solid black 3px;
+}
+
+h1{
+    text-align: center;
+    border: solid black 3px;
+    padding-top: 10px;
+    padding-bottom: 10%;
+    margin: 0;
+}
+
+nav{
+    border: solid black 3px;
+    max-height: 99%;
+    max-width: auto;
+    
+}
+
+article{
+    text-align: center;
+    border: solid black 2px;
+    margin-bottom: 5px; 
+    padding-bottom: 4px;
+    
+
+    
+}
+
+footer{
+    text-align: center;
+    border: solid black 3px;
+    display: grid;
+    grid-template-rows: auto;
+    
+}
+
+main{
+    border: solid black 3px;
+    padding: 4px;
+}
